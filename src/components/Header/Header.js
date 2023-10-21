@@ -1,5 +1,4 @@
 import React from "react";
-
 import resumeSvg from "../../assets/resume.svg";
 import linkedinSvg from "../../assets/linkedin.svg";
 import githubSvg from "../../assets/github.svg";
