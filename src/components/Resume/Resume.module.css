@@ -1,7 +1,7 @@
 .container {
   --color: #239ce2;
   min-width: 700px;
-  max-width: 850px;
+  max-width: 800px;
   margin: 0 auto;
   flex: 1.2;
   height: fit-content;
@@ -148,3 +148,20 @@
 .hidden {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .container {
+    min-height: auto; /* Adjusted min-height for better responsiveness on mobile */
+  }
+
+  .header .links {
+    gap: 5px; /* Adjusted gap for better spacing on smaller screens */
+    row-gap: 3px; /* Adjusted gap for better spacing on smaller screens */
+  }
+}
+
+
+
+
+
+
