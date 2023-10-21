@@ -94,7 +94,20 @@ function Body() {
       information={resumeInformation}
       setInformation={setResumeInformation}
     />
+
+<div className={styles.instructions}>
+  <h3>Instructions</h3>
+  <ul>
+    <li>Fill in your professional details in the respective sections.</li>
+    <li>Click the "Save" button to store your input for preview.</li>
+    <li>Customize the theme colors by selecting a preferred color from the palette.</li>
+    <li>Website will automatically preview your resume with the chosen color scheme.</li>
+    <li>Organize the sections by holding, dragging, and shifting them in the order of your choice.</li>
+    <li>Click the "Download" button on top to generate and save your resume in the selected theme.</li>
+  </ul>
+</div>
   </div>
+  
   <div className={`${styles.resumeContainer} ${styles.panel}`}>
     <Resume
       ref={resumeRef}
@@ -105,17 +118,7 @@ function Body() {
   </div>
 </div>
 
-<div className={styles.instructions}>
-  <h3>Instructions:</h3>
-  <ul>
-    <li>Fill in your professional details in the respective sections.</li>
-    <li>Click the "Save" button to store your input for preview.</li>
-    <li>Customize the theme colors by selecting a preferred color from the palette.</li>
-    <li>Website will automatically preview your resume with the chosen color scheme.</li>
-    <li>Organize the sections by holding, dragging, and shifting them in the order of your choice.</li>
-    <li>Click the "Download" button to generate and save your resume in the selected theme.</li>
-  </ul>
-</div>
+
 </div>
 
   );
