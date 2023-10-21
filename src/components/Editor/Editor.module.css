@@ -1,10 +1,9 @@
 .container {
-  min-width: 550px;
-  min-height: 450px;
+  min-width: 320px; /* Adjusted min-width for smaller screens */
   max-width: 750px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px; /* Reduced gap for smaller screens */
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   padding-top: 5px;
   height: fit-content;
@@ -129,4 +128,40 @@
 
 .body button:active {
   transform: translateY(2px);
+}
+
+@media (max-width: 768px) {
+  .container {
+    min-width: 280px; /* Adjusted min-width for smaller screens */
+    gap: 10px; /* Reduced gap for smaller screens */
+  }
+
+  .header {
+    gap: 2px; /* Reduced gap for smaller screens */
+  }
+
+  .header::-webkit-scrollbar {
+    height: 5px; /* Reduced scrollbar height */
+  }
+
+  .detail .row {
+    flex-direction: column; /* Stacking rows on smaller screens */
+    gap: 10px; /* Reduced gap for smaller screens */
+  }
+
+  .detail .column {
+    gap: 5px; /* Reduced gap for smaller screens */
+  }
+  
+  .chips {
+    gap: 10px; /* Reduced gap for smaller screens */
+  }
+  
+  .chip p {
+    font-size: 0.9rem; /* Adjusted font size for smaller screens */
+  }
+  
+  .body button {
+    font-size: 0.9rem; /* Adjusted font size for smaller screens */
+  }
 }

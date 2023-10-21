@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px; /* Increased gap for better spacing on mobile */
 }
 
 label {
@@ -10,6 +10,7 @@ label {
 }
 
 input {
+  width: 100%; /* Make input take full width */
   border: 1px solid #cccccc;
   outline: none;
   padding: 10px 12px;
@@ -23,4 +24,18 @@ input:hover {
 
 input:focus {
   border: 1px solid #239ce2;
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: 8px; /* Adjusted gap for better spacing on smaller screens */
+  }
+
+  label {
+    font-size: 0.9rem; /* Adjusted font size for smaller screens */
+  }
+
+  input {
+    font-size: 0.9rem; /* Adjusted font size for smaller screens */
+  }
 }
