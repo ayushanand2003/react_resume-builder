@@ -24,7 +24,7 @@ The Resume Builder is a web application that allows users to easily create and c
 
 ## Usage
 
-1. Visit the Resume Builder at [https://your-resume-builder-url.com](https://your-resume-builder-url.com).
+1. Visit the Resume Builder at [https://ayushanand2003.github.io/react_resume-builder/](https://ayushanand2003.github.io/react_resume-builder/).
 2. Customize your resume by filling in the provided fields.
 3. Select a template that matches your style and profession.
 4. Preview your resume and make any necessary adjustments.
