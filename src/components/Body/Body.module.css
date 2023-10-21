@@ -1,42 +1,54 @@
 .container {
-  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
-  padding-top: 0;
+  width: 100vw;
+  height: 100vh;
+  /* overflow: auto; Add overflow for scrolling if necessary */
 }
 
-.heading {
-  font-weight: 500;
-  font-size: 2.1rem;
+.topRow {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  margin-top: 0px; /* Adjust margin as needed */
+}
+
+.editorContainer,
+.resumeContainer {
+  flex: 1;
+  min-width: 45vw; /* Adjust the width as needed */
+}
+
+.panel {
+  width: 100%; /* Set panel width to 100% */
 }
 
 .toolbar {
   width: 100%;
   display: flex;
   gap: 40px;
-  justify-content: space-between;
+  justify-content: center; /* Center the content in the toolbar */
   align-items: center;
+  margin-bottom: 10px; /* Add margin at the bottom */
 }
 
 .colors {
   display: flex;
   gap: 20px;
-  padding: 0 30px;
 }
 
 .colors .color {
   height: 36px;
   width: 36px;
   border-radius: 50%;
-  background-color: #239ce2;
 }
+
 .colors .active {
   border: 2px solid #000;
 }
 
-.toolbar button {
+.downloadButton {
   padding: 8px 16px;
   border-radius: 5px;
   background-color: #239ce2;
@@ -52,14 +64,77 @@
   cursor: pointer;
 }
 
-.toolbar button svg {
+.downloadButton svg {
   height: 20px;
   width: 20px;
+  margin-right: 5px;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  width: 100%;
+.resumeContainer {
+  flex: 1;
+  min-width: 40vw; /* Adjust the width as needed */
+  overflow-y: auto; /* Add scroll if content overflows */
+  border: 1px solid #ccc; /* Add border for visual separation */
+  border-radius: 8px; /* Add some border radius for aesthetics */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+  background-color: #fff; /* Set a background color */
+}
+
+.resumeContainer .resumeContent {
+  padding: 20px; /* Add some padding for spacing */
+  max-height: 100%; /* Allow content to take full height */
+}
+
+.resumeContainer .resumeContent::-webkit-scrollbar {
+  width: 8px; /* Set scrollbar width */
+}
+
+.resumeContainer .resumeContent::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set scrollbar thumb color */
+  border-radius: 4px; /* Add border radius to thumb */
+}
+
+.resumeContainer .resumeContent::-webkit-scrollbar-track {
+  background-color: #f5f5f5; /* Set scrollbar track color */
+}
+
+.instructions {
+  margin-left:-800px;
+  margin-top: -380px;
+  font-size: 1rem;
+}
+
+.instructions h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.instructions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructions li {
+  margin-bottom: 8px;
+}
+
+.instructions li:before {
+  content: "•";
+  color: #239ce2;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+@media (min-width: 768px) {
+  .topRow {
+    flex-direction: row; /* Switch back to row layout on larger screens */
+  }
+
+  .editorContainer,
+  .resumeContainer {
+    min-width: 45vw; /* Adjust the width as needed for larger screens */
+  }
 }
