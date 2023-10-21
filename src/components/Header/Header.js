@@ -25,18 +25,18 @@ function Header() {
       <div className={styles.developerInfo}>
         Developed By <span>Ayush Anand</span>
         <div className={styles.socialLinks}>
-          <a href="https://example.com">
-            <img src={websiteSvg} alt="Website" />
-          </a>
-          <a href="https://example.com">
-            <img src={linkedinSvg} alt="LinkedIn" />
-          </a>
-          <a href="https://example.com">
-            <img src={githubSvg} alt="GitHub" />
-          </a>
-          <a href="https://example.com">
-            <img src={instagramSvg} alt="GitHub" />
-          </a>
+              <a href="https://ayushanand2003.github.io/Portfolio/" target="_blank" rel="noreferrer">
+              <img src={websiteSvg} alt="Website" />
+              </a>
+              <a href="https://www.linkedin.com/in/ayushanand2003/" target="_blank" rel="noreferrer">
+                <img src={linkedinSvg} alt="LinkedIn" />
+              </a>
+              <a href="https://github.com/ayushanand2003/" target="_blank" rel="noreferrer">
+                <img src={githubSvg} alt="GitHub" />
+              </a>
+              <a href="https://www.instagram.com/ayushshsh_/" target="_blank" rel="noreferrer">
+                <img src={instagramSvg} alt="Insta" />
+              </a>
           {/* Add more social media links as needed */}
         </div>
       </div>
