@@ -69,7 +69,7 @@ function Editor(props) {
         />
         <InputControl
           label="Location"
-          placeholder="Enter location eg. Remote"
+          placeholder="Enter location (eg. Remote)"
           value={values.location}
           onChange={(event) =>
             setValues((prev) => ({ ...prev, location: event.target.value }))
@@ -186,7 +186,7 @@ function Editor(props) {
         <InputControl
           label="Title"
           value={values.title}
-          placeholder="Enter title eg. B-tech"
+          placeholder="Enter title (eg. B-tech)"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, title: event.target.value }))
           }
