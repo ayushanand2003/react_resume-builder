@@ -13,7 +13,7 @@ function App() {
       
       </section>
 
-      <section>
+      <section id="BodySection">
          <Body />
       </section>
 
