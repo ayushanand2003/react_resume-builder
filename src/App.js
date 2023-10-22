@@ -8,8 +8,17 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Body />
+      <section id="Homepage">
+       <Header />
+      
+      </section>
+
+      <section>
+         <Body />
+      </section>
+
+
+      
     </div>
   );
 }
