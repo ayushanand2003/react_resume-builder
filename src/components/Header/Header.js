@@ -22,8 +22,8 @@ function Header() {
         <p className={styles.subHeading}>
           Customise Resume <span>Absolutely Free</span>
         </p>
-        <button className={styles.buildButton} onClick={scrollToBody}>
-          Let's Build
+        <button className={`glowing-btn ${styles.buildButton}`} onClick={scrollToBody}>
+          Click Here To Start
         </button>
       </div>
       <div className={styles.right}>
