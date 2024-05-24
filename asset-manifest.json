@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_resume-builder/static/css/main.55752c0b.css",
-    "main.js": "/react_resume-builder/static/js/main.8c026bba.js",
+    "main.js": "/react_resume-builder/static/js/main.ee3258fb.js",
     "static/media/website.svg": "/react_resume-builder/static/media/website.147ddb9438f5926f822ad5edd143210c.svg",
     "static/media/instagram.svg": "/react_resume-builder/static/media/instagram.569c81be5e70ac401e769db65ce2cd13.svg",
     "static/media/github.svg": "/react_resume-builder/static/media/github.1bd63e979f140bdfab1b94e8bf6ef511.svg",
@@ -9,10 +9,10 @@
     "static/media/linkedin.svg": "/react_resume-builder/static/media/linkedin.87eec6ba0c939bce3864e1ec0fadf307.svg",
     "index.html": "/react_resume-builder/index.html",
     "main.55752c0b.css.map": "/react_resume-builder/static/css/main.55752c0b.css.map",
-    "main.8c026bba.js.map": "/react_resume-builder/static/js/main.8c026bba.js.map"
+    "main.ee3258fb.js.map": "/react_resume-builder/static/js/main.ee3258fb.js.map"
   },
   "entrypoints": [
     "static/css/main.55752c0b.css",
-    "static/js/main.8c026bba.js"
+    "static/js/main.ee3258fb.js"
   ]
 }
