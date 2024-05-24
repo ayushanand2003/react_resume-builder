@@ -30,7 +30,7 @@ function Header() {
         <img src={resumeSvg} alt="Resume" />
       </div>
       <div className={styles.developerInfo}>
-        Developed By <span>Abhishek</span>
+        Developed By <span>Ayush Anand</span>
         <div className={styles.socialLinks}>
           <a
             href="https://ayushanand2003.github.io/Portfolio/"
